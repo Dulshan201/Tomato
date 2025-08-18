@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tomato API Test</title>
+</head>
+<body>
+    <h1>Tomato Backend API Test</h1>
+    <div id="result"></div>
+    
+    <script>
+        async function testAPI() {
+            const resultDiv = document.getElementById('result');
+            
+            try {
+                // Test food list endpoint
+                const response = await fetch('http://localhost:4000/api/food/list');
+                const data = await response.json();
+                
+                if (data.success) {
+                    resultDiv.innerHTML = `
+                        <h2>✅ API Working!</h2>
+                        <p>Found ${data.data.length} food items:</p>
+                        <ul>
+                            ${data.data.map(item => `<li>${item.name} - $${item.price}</li>`).join('')}
+                        </ul>
+                    `;
+                } else {
+                    resultDiv.innerHTML = '<h2>❌ API Error</h2><p>' + data.message + '</p>';
+                }
+            } catch (error) {
+                resultDiv.innerHTML = '<h2>❌ Connection Error</h2><p>' + error.message + '</p>';
+            }
+        }
+        
+        // Test when page loads
+        testAPI();
+    </script>
+</body>
+</html>
