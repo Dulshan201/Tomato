@@ -32,3 +32,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
     console.log(`Server Started on http://localhost:${port}`);
 });
+// Export for Vercel serverless functions
+export default app;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/home';
@@ -10,12 +10,22 @@ import LogingPopup from './components/LogingPopup/LogingPopup';
 const App = () => {
 
   const [showLogin,setShowLogin]=useState(false)
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light')
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('theme', theme)
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light')
+  }
 
   return (
     <>
     {showLogin?<LogingPopup setShowLogin={setShowLogin}/>:<></>}
     <div className='app'>
-      <Navbar setShowLogin={setShowLogin}/>
+      <Navbar setShowLogin={setShowLogin} theme={theme} toggleTheme={toggleTheme}/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>

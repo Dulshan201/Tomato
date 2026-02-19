@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, reiciendis error iusto sequi rerum odio suscipit consequatur saepe placeat adipisci accusantium eius eligendi nemo vitae eos aut quia! Id, itaque.</p>
+                <p>Premium artisan sauces crafted with passion and the finest ingredients. From fiery hot sauces to rich BBQ glazes, we deliver bold flavors that transform every meal into a culinary masterpiece. Taste the difference quality makes.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -28,12 +28,12 @@ const Footer = () => {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>011-2314521</li>
-                    <li>contact@tomato.com</li>
+                    <li>contact@sauceshop.com</li>
                 </ul>
             </div>
             </div>
         <hr />
-        <p className="footer-copyright">Copyright © 2024 Tomato.com - All Rights Reserved.
+        <p className="footer-copyright">Copyright © 2024 SauceShop.com - All Rights Reserved.
         </p>
         
       

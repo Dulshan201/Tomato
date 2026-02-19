@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 
-const Navbar = ({setShowLogin}) => {
+const Navbar = ({setShowLogin, theme, toggleTheme}) => {
 const [menu,setmenu]=useState("menu");
 const {getTotalCartAmount, token, setToken}= useContext(StoreContext)
 
@@ -25,6 +25,9 @@ const logout = () => {
 
      <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
+        <button className="theme-toggle" onClick={toggleTheme} title={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}>
+          {theme === 'light' ? '🌙' : '☀️'}
+        </button>
         <div className="navbar-search-icon">
             <Link to='/cart'><img src={assets.basket_icon}alt="" /></Link>
             <div className={getTotalCartAmount()===0?"":"dot"}></div>

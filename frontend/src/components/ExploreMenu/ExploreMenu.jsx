@@ -6,8 +6,8 @@ const ExploreMenu = ({category,setCategory}) => {
 
   return (
     <div className='explore-menu' id='explore-menu'>
-      <h1>Explore our menu</h1>
-      <p className='explore-menu-text'>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satiate your appetite with a perfect blend of flavors, offering something for every palate. Each dish is carefully crafted using the finest ingredients, ensuring a dining experience that is both satisfying and memorable.</p>
+      <h1>Explore Our Sauce Collection</h1>
+      <p className='explore-menu-text'>Browse through our exceptional range of artisan sauces, from bold hot sauces to savory BBQ glazes and exotic Asian flavors. Each sauce is handcrafted with premium ingredients to enhance your culinary creations. Whether you're grilling, marinating, or dipping, find the perfect sauce to elevate your dishes to new heights.</p>
       <div className="explore-menu-list">
         {menu_list.map((item,index)=>{
             return (

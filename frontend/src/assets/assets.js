@@ -84,267 +84,267 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Hot Sauce",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "BBQ Sauce",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Asian Sauce",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Specialty",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Marinade",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Organic",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Dipping",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Premium",
         menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Classic Sriracha",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 8,
+        description: "Bold and spicy hot sauce with a perfect balance of heat and garlic flavor",
+        category: "Hot Sauce"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Habanero Heat",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 10,
+        description: "Fiery habanero peppers blended for an intense heat experience",
+        category: "Hot Sauce"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Ghost Pepper Extreme",
         image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 12,
+        description: "One of the hottest sauces featuring ghost peppers for extreme heat lovers",
+        category: "Hot Sauce"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Jalapeño Green Sauce",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 9,
+        description: "Fresh jalapeño peppers create a tangy, medium-heat green sauce",
+        category: "Hot Sauce"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Sweet & Smoky BBQ",
         image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 7,
+        description: "Classic BBQ sauce with a perfect balance of sweetness and smoke",
+        category: "BBQ Sauce"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Carolina Gold",
         image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 8,
+        description: "Tangy mustard-based BBQ sauce from the Carolinas",
+        category: "BBQ Sauce"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Spicy Chipotle BBQ",
         image: food_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 9,
+        description: "Smoky chipotle peppers add a spicy kick to classic BBQ",
+        category: "BBQ Sauce"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Texas Style BBQ",
         image: food_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 8,
+        description: "Bold, thick BBQ sauce with authentic Texas flavors",
+        category: "BBQ Sauce"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Teriyaki Glaze",
         image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 7,
+        description: "Sweet and savory Japanese-style sauce perfect for glazing",
+        category: "Asian Sauce"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Thai Sweet Chili",
         image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 7,
+        description: "Sweet and spicy Thai sauce with authentic flavor",
+        category: "Asian Sauce"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Soy Ginger Fusion",
         image: food_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 8,
+        description: "Rich soy sauce blended with fresh ginger and garlic",
+        category: "Asian Sauce"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Hoisin Sauce",
         image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 7,
+        description: "Thick, fragrant Chinese sauce with sweet and savory notes",
+        category: "Asian Sauce"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Truffle Aioli",
         image: food_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 15,
+        description: "Luxurious aioli infused with premium truffle oil",
+        category: "Specialty"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Mango Habanero",
         image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 10,
+        description: "Sweet tropical mango meets fiery habanero peppers",
+        category: "Specialty"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Bourbon Maple",
         image: food_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 12,
+        description: "Rich bourbon and maple syrup create a unique flavor profile",
+        category: "Specialty"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Garlic Parmesan",
         image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 9,
+        description: "Creamy sauce with roasted garlic and aged parmesan",
+        category: "Specialty"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Herb Garden Marinade",
         image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 8,
+        description: "Fresh herbs and olive oil create the perfect marinade",
+        category: "Marinade"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Citrus Ginger",
         image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 9,
+        description: "Bright citrus flavors with fresh ginger for meat and seafood",
+        category: "Marinade"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Balsamic Glaze",
         image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 10,
+        description: "Aged balsamic vinegar reduced to a sweet glaze",
+        category: "Marinade"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Lemon Pepper",
         image: food_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 8,
+        description: "Zesty lemon with cracked black pepper marinade",
+        category: "Marinade"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Organic Tomato Basil",
         image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 11,
+        description: "Certified organic tomatoes and fresh basil",
+        category: "Organic"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Raw Fermented Hot",
         image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 13,
+        description: "Naturally fermented organic peppers with probiotics",
+        category: "Organic"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Organic Ketchup",
         image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 9,
+        description: "All-natural organic ketchup without preservatives",
+        category: "Organic"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Green Goddess",
         image: food_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 10,
+        description: "Organic herbs and avocado create a healthy green sauce",
+        category: "Organic"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Ranch Dip",
         image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 6,
+        description: "Creamy ranch perfect for dipping vegetables and more",
+        category: "Dipping"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Buffalo Wing Sauce",
         image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 7,
+        description: "Classic buffalo sauce for wings and dipping",
+        category: "Dipping"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Cheese Queso",
         image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 8,
+        description: "Smooth, melted cheese dip with a hint of spice",
+        category: "Dipping"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Honey Mustard",
         image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 6,
+        description: "Sweet honey blended with tangy mustard",
+        category: "Dipping"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Black Garlic Reserve",
         image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 18,
+        description: "Rare aged black garlic creates a complex umami flavor",
+        category: "Premium"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Champagne Vinaigrette",
         image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 16,
+        description: "Luxurious champagne vinegar with herbs and spices",
+        category: "Premium"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Wagyu Au Jus",
         image: food_31,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Rich sauce made from premium wagyu beef drippings",
+        category: "Premium"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Caviar Cream",
         image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 25,
+        description: "Decadent cream sauce with real caviar pearls",
+        category: "Premium"
     }
 ]
