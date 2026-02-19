@@ -6,6 +6,7 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer';
 import LogingPopup from './components/LogingPopup/LogingPopup';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
 
@@ -33,6 +34,7 @@ const App = () => {
       </Routes>
     </div>
     <Footer/>
+    <Analytics />
     </>
   )
 }
